@@ -10,7 +10,7 @@ Mais detalhes podem ser encontrados na página do desafio: [https://www.frontend
 
 ### Demonstração
 
-Veja a minha solução em ação aqui: [link](link).
+Veja a minha solução em ação aqui: [https://vinicius-zanchetta.github.io/frontendmentor-product-preview-card-component/](https://vinicius-zanchetta.github.io/frontendmentor-product-preview-card-component/).
 
 ### Tecnologias Utilizadas
 
