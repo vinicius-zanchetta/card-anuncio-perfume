@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 343px;
+  height: 611px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.image {
+  height: 240px;
+}
+
+img {
+  max-width: 100%;
+  content: url(./images/image-product-mobile.jpg);
+}
+
+.info {
+  /* height: 371px; */
+  background-color: white;
+  padding: 24px;
+}
+
+p {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+
+#item-category {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 5px;
+  margin-bottom: 16px;
+}
+
+.font-principal {
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
+  height: 700;
+  font-size: 32px;
+  line-height: 1;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+#item-description {
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+#span-price {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+#price {
+  color: hsl(158, 36%, 37%);
+}
+
+#old-price {
+  text-decoration: line-through;
+}
+
+button {
+  height: 48px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #1A4031;
+}
+
+#span-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 600px;
+    height: 450px;
+    display: flex;
+  }
+
+  img {
+    content: url(images/image-product-desktop.jpg);
+  }
+
+  .image {
+    width: 300px;
+    height: 100%;
+  }
+
+  .info {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 32px;
+  }
+
+
+  #item-category {
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    margin-bottom: 32px;
+  }
+
+  #item-description {
+    margin-bottom: 32px;
+  }
+
+  #span-price {
+    margin-bottom: 24px;
+  }
+
+
+}
